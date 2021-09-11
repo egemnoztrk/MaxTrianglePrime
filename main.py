@@ -13,10 +13,12 @@ def isPrime(n):
  
     return True
 
+#prime olan sayıları -1000liyorum ki maximum countu bulurken o yolu kullanmasın 
 counter=0
 for num in numbers:
-    if isPrime(num):numbers[counter]=0
+    if isPrime(num):numbers[counter]=-1000
     counter+=1
+
 
 rows=[]
 x=y=0
